@@ -1,0 +1,73 @@
+{
+  "name": "TestApiRPA",
+  "description": "Test Automation Project to Api testing",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.System.Activities": "[20.10.4]",
+    "UiPath.Testing.Activities": "[1.2.5]",
+    "UiPath.UIAutomation.Activities": "[20.10.9]",
+    "UiPath.WebAPI.Activities": "[1.6.0]",
+    "UiPathTeam.JsonRequestActivities": "[1.0.0]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "20.10.6.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Tests",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "a1d0fcc4-4776-42d0-889f-9dc9109a1c42",
+        "fileName": "RequestGetSuccess.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "b3efec2b-d44b-4be6-8702-4e4a131058c7",
+        "fileName": "RequestGetFail.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "659ffa1b-d820-42e0-bae4-b09a0abc6e67",
+        "fileName": "RequestDeleteFail.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "d6982cfa-ed13-4dd9-9bc9-242a6e209047",
+        "fileName": "RequestDeleteSuccess.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "cc88f04f-e208-4351-9c39-8a4f2486a23c",
+        "fileName": "RequestPost.xaml"
+      }
+    ],
+    "modernBehavior": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {}
+}
